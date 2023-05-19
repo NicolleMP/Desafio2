@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+:root {
+  --color-primary: #6369d9;
+  --color-secudary: #efebfb;
+  --color-terciary: #d3c7f5;
+}
+
+.inicio {
+  width: 360px;
+  height: 640px;
+  left: -487px;
+  top: -369px;
+  border-radius: 20px;
+  background-color: #f6f2ff;
+}
+
+.imagem {
+  width: 223px;
+  height: 116px;
+  top: 150px;
+  left: 59px;
+  position: absolute;
+}
+
+.caixa {
+  box-sizing: border-box;
+  width: 280px;
+  height: 135px;
+  top: 290px;
+  left: 29px;
+  border: 2px dashed #9747ff;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.form {
+  text-align: center;
+  display: block;
+}
+
+input {
+  width: 220px;
+  height: 34px;
+  left: 0%;
+  right: 0%;
+  margin: 10px auto;
+  top: 0%;
+  bottom: 0%;
+  background: #d1d0f9;
+  border-radius: 30px;
+  display: block;
+}
+
+#email::-webkit-input-placeholder {
+  position: absolute;
+  width: 49px;
+  height: 15px;
+  top: 8px;
+  left: 14px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+}
+
+#password::-webkit-input-placeholder {
+  position: absolute;
+  width: 65px;
+  height: 50px;
+  top: 9px;
+  left: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+}
+
+.botao {
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+p {
+  width: 275px;
+  height: 20px;
+  left: 46px;
+  top: 464px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #9c98a2;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}

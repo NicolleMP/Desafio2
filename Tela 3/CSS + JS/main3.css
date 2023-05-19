@@ -11,7 +11,11 @@
   --color-terciary: #d3c7f5;
 }
 
-.logobar {
+.text-primary {
+  color: var(--color-primary);
+}
+
+.inicio {
   width: 360px;
   height: 640px;
   left: -487px;
@@ -20,39 +24,36 @@
   background-color: #f6f2ff;
 }
 
-.imagem1 {
-  margin-top: 50px;
-}
-
-.fonte {
-  display: flex;
-  width: 100%;
+p {
+  position: absolute;
+  width: 204px;
+  height: 8px;
+  left: 38px;
+  top: 125px;
   font-family: "Poppins";
-  font-size: 28px;
-  font-weight: 800;
   font-style: normal;
-  line-height: 30px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
   text-align: center;
-}
-
-#elipse {
-  width: 40px;
-  height: 40px;
-  top: 566px;
-  left: 293px;
-  position: absolute;
-  border-radius: 100%;
-  background-color: #6369d9;
-}
-
-#vector {
-  position: absolute;
-  left: 84.17%;
-  right: 10.12%;
-  top: 90.16%;
-  bottom: 7.03%;
-}
-
-.text-primary {
+  letter-spacing: 0.02em;
   color: var(--color-primary);
+}
+
+.rectangle-3 {
+  position: absolute;
+  width: 270px;
+  height: 149px;
+  left: 37px;
+  top: 149px;
+  background: #6368d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.diario {
+  width: 80.6px;
+  height: 88.35px;
+  left: 213px;
+  top: 190px;
 }
