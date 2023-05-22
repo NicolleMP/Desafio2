@@ -24,6 +24,16 @@
   background-color: #f6f2ff;
 }
 
+.perfil {
+  box-sizing: border-box;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 36px;
+  top: 38px;
+  border: 1px solid #6368d9;
+}
+
 p {
   position: absolute;
   width: 204px;
@@ -52,8 +62,98 @@ p {
 }
 
 .diario {
+  position: absolute;
   width: 80.6px;
   height: 88.35px;
-  left: 213px;
-  top: 190px;
+  left: 175px;
+  top: 50px;
+}
+
+.details {
+  position: absolute;
+  width: 80px;
+  height: 22px;
+  left: 20px;
+  top: 110px;
+  background: #d1d0f9;
+  border-radius: 30px;
+}
+
+.caixa {
+  box-sizing: border-box;
+  position: absolute;
+  width: 330px;
+  height: 253px;
+  left: 15px;
+  top: 326px;
+  border: 2px dashed #6368d9;
+  border-radius: 6px;
+}
+
+.frase {
+  width: 100px;
+  height: 8px;
+  left: 35px;
+  top: 318px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.box {
+  width: 148px;
+  height: 68px;
+  left: 300px;
+  top: 60px;
+  color: var(--color-primary);
+}
+
+.home {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 596px;
+  left: 35px;
+  color: #d1d0f9;
+}
+
+.calendario {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 596px;
+  left: 96px;
+  color: #d1d0f9;
+}
+
+.bell {
+  position: absolute;
+  width: 21.28px;
+  height: 24px;
+  top: 596px;
+  left: 242px;
+  color: #d1d0f9;
+}
+
+.perfil {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 596px;
+  left: 301px;
+  color: #d1d0f9;
+}
+
+.vector {
+  border-radius: 20px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 576px;
+  left: 161px;
+  background: #6368d9;
 }
