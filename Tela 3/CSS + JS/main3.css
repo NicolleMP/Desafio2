@@ -82,7 +82,7 @@ p {
 .caixa {
   box-sizing: border-box;
   position: absolute;
-  width: 330px;
+  width: 320px;
   height: 253px;
   left: 15px;
   top: 326px;
@@ -106,7 +106,7 @@ p {
 
 .box {
   width: 148px;
-  height: 68px;
+  height: 70px;
   left: 300px;
   top: 60px;
   color: var(--color-primary);
